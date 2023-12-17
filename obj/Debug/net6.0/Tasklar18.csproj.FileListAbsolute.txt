@@ -1,0 +1,14 @@
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\bin\Debug\net6.0\Tasklar18.exe
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\bin\Debug\net6.0\Tasklar18.deps.json
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\bin\Debug\net6.0\Tasklar18.runtimeconfig.json
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\bin\Debug\net6.0\Tasklar18.dll
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\bin\Debug\net6.0\Tasklar18.pdb
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\obj\Debug\net6.0\Tasklar18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\obj\Debug\net6.0\Tasklar18.AssemblyInfoInputs.cache
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\obj\Debug\net6.0\Tasklar18.AssemblyInfo.cs
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\obj\Debug\net6.0\Tasklar18.csproj.CoreCompileInputs.cache
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\obj\Debug\net6.0\Tasklar18.dll
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\obj\Debug\net6.0\refint\Tasklar18.dll
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\obj\Debug\net6.0\Tasklar18.pdb
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\obj\Debug\net6.0\Tasklar18.genruntimeconfig.cache
+C:\Users\ahmed\Desktop\zirzibil\Tasklar18\Tasklar18\obj\Debug\net6.0\ref\Tasklar18.dll
