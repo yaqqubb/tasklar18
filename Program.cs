@@ -16,13 +16,14 @@ namespace Tasklar18
             //Task5();
             //Task6();
             //Task7();
-            //Task8();
-            //Task9();
+            //Task8();   
+            //Task9(); 
             //Task10();
             //Task11();
             //Task12();
             //Task13();
-            Task14();
+            //Task14();
+            //VurmaCedveli();
         }
 
         static void Task1()
@@ -67,14 +68,14 @@ namespace Tasklar18
             for (int i = 0; i < Metn.Length; i += 2)
             {
 
-                
-                    if (Metn[i] != aSimvolu)
-                    {
-                        Console.WriteLine("Tek yerde duran simvollarin hamisi a deyil!");
-                        goto l2;
-                    }
 
-                
+                if (Metn[i] != aSimvolu)
+                {
+                    Console.WriteLine("Tek yerde duran simvollarin hamisi a deyil!");
+                    goto l2;
+                }
+
+
             }
             Console.WriteLine("Tek yerde duranlarin hamisi a simvoludur!");
 
@@ -153,7 +154,7 @@ namespace Tasklar18
 
 
         }
-        static void Task6() 
+        static void Task6()
         {
             string Metn = Console.ReadLine();
             int a = Metn.IndexOf('a');
@@ -168,7 +169,7 @@ namespace Tasklar18
             }
 
 
-        } 
+        }
         static void Task7()
         {
             Console.Write("Icinde a, b, c simvollari olan metn daxil edin: ");
@@ -206,9 +207,9 @@ namespace Tasklar18
             int a = Metn.IndexOf('a');
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(Metn[a+1]);
+                Console.WriteLine(Metn[a + 1]);
             }
-         
+
         }
         static void Task9()
         {
@@ -219,11 +220,11 @@ namespace Tasklar18
             char a1 = Metn[a - 1];
             char a2 = Metn[a - 2];
             char a3 = Metn[a - 3];
-            
+
             char b1 = Metn[0];
             char b2 = Metn[1];
             char b3 = Metn[2];
-           
+
             if (a1 == b1 && a2 == b2 && a3 == b3)
             {
                 Console.WriteLine("Verilmis metindeki ilk 3 simvol son 3 simvolun tersine formasiyla eynidir!");
@@ -246,24 +247,24 @@ namespace Tasklar18
                     Netice += c;
                 }
             }
-           
+
             Console.WriteLine(Netice);
         }
         static void Task11()
         {
             Console.Write("Metn daxil edin: ");
-                string Metn = Console.ReadLine();
+            string Metn = Console.ReadLine();
 
-                
-                string deyisilmismetn = "";
 
-                foreach (char c in Metn)
+            string deyisilmismetn = "";
+
+            foreach (char c in Metn)
+            {
+
+                if (c == 'a')
                 {
-                    
-                    if (c == 'a')
-                    {
-                        deyisilmismetn += 'b';
-                    }
+                    deyisilmismetn += 'b';
+                }
                 if (c == 'b')
                 {
                     deyisilmismetn += 'a';
@@ -271,20 +272,20 @@ namespace Tasklar18
 
 
                 deyisilmismetn += c;
-                }
-
-              
-                
-                Console.WriteLine("Yeni metn: " + deyisilmismetn);
             }
-        
-        static void Task12() 
+
+
+
+            Console.WriteLine("Yeni metn: " + deyisilmismetn);
+        }
+
+        static void Task12()
         {
         l1:
             Console.Write("Metn daxil edin: ");
             string Metn = Console.ReadLine();
 
-            
+
             int ailkindex = Metn.IndexOf('a');
 
 
@@ -308,7 +309,7 @@ namespace Tasklar18
 
                 Console.WriteLine(Metn2);
             }
-            
+
             else
             {
                 Console.WriteLine("Metnde a simvolu yoxdur!");
@@ -321,7 +322,7 @@ namespace Tasklar18
         static void Task13()
         {
             string text = Console.ReadLine();
-            for (int i = 0; i<text.Length; i++)
+            for (int i = 0; i < text.Length; i++)
             {
                 char oldugumuzchar = text[i];
                 if (i % 2 == 0)
@@ -329,7 +330,7 @@ namespace Tasklar18
                     Console.Write(char.ToUpper(oldugumuzchar));
                 }
                 else
-                { 
+                {
                     Console.Write(char.ToLower(oldugumuzchar));
                 }
             }
@@ -340,7 +341,7 @@ namespace Tasklar18
             string Metn = "salam";
             for (int i = 0; i < Metn.Length - 1; i++)
             {
-                char x = Metn[i+1];
+                char x = Metn[i + 1];
 
                 if (i % 2 == 0)
                 {
@@ -351,9 +352,23 @@ namespace Tasklar18
 
 
         }
+        static void VurmaCedveli()
+        {
+            for (int a = 0; a <= 10; a++)
+            {
+                for (int b = 0; b <= 10; b++)
+                {
+                    Console.WriteLine("{0}x{1}", a, b, a * b);
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine();
+
+        }
 
     }
 }
+
 
 
     
